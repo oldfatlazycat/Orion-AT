@@ -1,0 +1,37 @@
+z280_mpu_(ocr_bw_600).pdf
+18.2 MB
+Глава 3.2 слова описывающие суть
+> Евгений:
+транзистор т1 и его управление как раз отвечают за сигнал 0 на wait в момент старта после ресет
+
+> Евгений:
+резисторы r1-r7 на шине d0-d7 и джамперы j1-j4 отвечают за формирование слова
+
+
+VGA Init
+CPU0 Init
+COM1 Init
+RAM 4MB found
+
+All RAM 16MB found
+
+
+
+CPU1 Init
+RAM 4MB found
+
+CMOS Chip found
+Keyboard PS/2 found
+Mouse PS/2 found
+
+
+
+
+CPU2 Init
+RAM 4MB found
+
+
+
+
+CPU3 Init
+RAM 4MB found

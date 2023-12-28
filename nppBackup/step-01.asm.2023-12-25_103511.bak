@@ -1,0 +1,8 @@
+; Test program for Z280 CPU (C)Eugene Po - efu@mail.ru (http://orion.efu.name) 24.12.2023
+
+  org (0000)
+START:
+  di				; откл. прерывания
+  xor a				; обнулить аккумулятор
+  out0 (36h),a		; откл. регенерацию памяти
+
